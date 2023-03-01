@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First_Fragment">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  >
+  <Button
+      android:id="@+id/btnAdd"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="+"
+      android:layout_alignParentLeft="true"
+      />
+
+  <Button
+      android:id="@+id/btnMinus"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="-"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      />
+
+  <TextView
+      android:id="@+id/tv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:layout_centerVertical="true"
+      android:layout_marginTop="200dp"
+      android:text="                  "
+      android:textSize="40dp" />
+
+  <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+      android:layout_alignParentLeft="true"
+      android:layout_marginLeft="170dp"
+        ></Button>
+</RelativeLayout>
+
+</FrameLayout>
